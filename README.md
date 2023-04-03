@@ -10,4 +10,6 @@
 
 ~ at last simply run 'app.py' and upload the images, TF-serving will inference and give back the results
 
+    python app.py
+
 ~ saved_model can be replaced with any pre-trained model. try using different models e.g "SSD", "RESNET" but provide according variables
