@@ -14,9 +14,9 @@ Note that in ``saved_model/1/variables/`` we need to add the model's appropriate
 
 ## Server Changes
 
-Note that Changing Inference Server may affect the ``Model Format``.
+Note that Changing ``Inference Server`` may affect the ``Model Format``.
 
-Use the ``Model Format`` which is supported by the Inference Server that you are gonna use.
+Use the ``Model Format`` which is supported by the ``Inference Server`` that you are gonna use.
 
 ## RUN MANUALLY
   
