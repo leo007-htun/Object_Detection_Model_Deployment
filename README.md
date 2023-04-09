@@ -2,7 +2,7 @@
 
 Note that in ``saved_model/1/variables/`` we need to add the model's appropriate logged variables
 
-``saved_model`` can be replaced with any pre-trained model. Try using different models e.g ``SSD`` ``RESNET`` but must be provided with according variables
+``saved_model`` can be replaced with any pre-trained model. Try using different models e.g ``SSD`` ``RESNET`` but must be provided with according ``variables`` and ``model.pb`` 
 
 ## RUN MANUALLY
   
