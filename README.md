@@ -1,4 +1,6 @@
-   ***_Note that in saved_model/1/variables/ ,we need to add the model's appropriate logged variables_***
+## Model Changes
+-----------------
+  ***_Note that in saved_model/1/variables/ ,we need to add the model's appropriate logged variables_***
 1. **simply create new directory and pull this repo**
 
 2. **To run the TF-Serving, you must have already installed docker and TF-Serving image**
