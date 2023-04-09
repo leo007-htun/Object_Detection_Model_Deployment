@@ -1,6 +1,6 @@
 ## Model Changes 
 
-Inside ``saved_model/1/`` , there are one folder named ``variables/`` and  ``saved_model.pb (tf.saved_model)``.
+Inside ``saved_model/1/`` , there are one folder named ``variables/`` and  ``saved_model.pb``.
 
 Inside ``variables/`` , there are two files, namely ``variables.index`` and ``variables.data-00000-of-00001``.
 
@@ -16,7 +16,7 @@ Note that in ``saved_model/1/variables/`` we need to add the model's appropriate
 
 Note that Changing Inference Server may affect the ``Model Format``.
 
-In my case, I used ``Tensorflow-Serving``, which supports 
+Use the ``Model Format`` which is supported by the Inference Server that you are gonna use.
 
 ## RUN MANUALLY
   
