@@ -1,6 +1,6 @@
 ## Model Changes 
 
-Inside ``saved_model/1/`` , there are one folder named ``variables/`` and ``saved_model.pb``.
+Inside ``saved_model/1/`` , there are one folder named ``variables/`` and  ``saved_model.pb (tf.saved_model)``.
 
 Inside ``variables/`` , there are two files, namely ``variables.index`` and ``variables.data-00000-of-00001``.
 
@@ -11,6 +11,12 @@ We need both ``variables/`` and ``model.pb`` to utilize the model.
 Note that in ``saved_model/1/variables/`` we need to add the model's appropriate logged variables
 
 ``saved_model.pb`` can be replaced with any pre-trained model. Try using different models e.g ``SSD`` ``RESNET`` but must be provided with according ``variables`` and ``model.pb`` 
+
+## Server Changes
+
+Note that Changing Inference Server may affect the ``Model Format``.
+
+In my case, I used ``Tensorflow-Serving``, which supports 
 
 ## RUN MANUALLY
   
