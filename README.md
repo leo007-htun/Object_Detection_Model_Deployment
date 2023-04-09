@@ -1,4 +1,6 @@
-## Model Changes [Download faster-rcnn-resnet101_brid_detection_model here (includes saved_model and variables)](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
+## Model Changes 
+[Download faster-rcnn-resnet101_brid_detection_model here (includes saved_model and variables)](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
+
   ***_Note that in saved_model/1/variables/ ,we need to add the model's appropriate logged variables_***
 1. **simply create new directory and pull this repo**
 
