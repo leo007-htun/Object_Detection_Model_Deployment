@@ -4,8 +4,6 @@ Note that in ``saved_model/1/variables/`` we need to add the model's appropriate
 
 ``saved_model`` can be replaced with any pre-trained model. Try using different models e.g ``SSD`` ``RESNET`` but must be provided with according variables
 
-## [Download faster-rcnn-resnet101_brid_detection_model (includes saved_model and variables)](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
-
 ## RUN MANUALLY
   
 1. simply create new directory and pull this repo
@@ -33,4 +31,6 @@ Note that in ``saved_model/1/variables/`` we need to add the model's appropriate
 3. stop and remove container images:
 
         sudo docker compose down
+        
+## [Download faster-rcnn-resnet101_brid_detection_model (includes saved_model and variables)](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
     
