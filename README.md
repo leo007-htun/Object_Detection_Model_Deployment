@@ -16,7 +16,7 @@ Note that in ``saved_model/1/variables/`` we need to add the model's appropriate
 
         sudo docker run --gpus all -p 8500:8500 --name od --mount type=bind,source=/home/...USR_DIR.../tf_obj_detect_faster_rcnn/saved_model,target=/models/od -e MODEL_NAME=od -t tensorflow/serving:latest-gpu 
 
-4. **at last simply run 'app.py' and upload the images, TF-serving will inference and give back the results**
+4. At last simply run 'app.py' and upload the images, TF-serving will inference and give back the results
 
         python app.py 
 
