@@ -11,6 +11,6 @@
 
         python app.py 
 
-   **_saved_model can be replaced with any pre-trained model. try using different models e.g "SSD", "RESNET" but provide according variables_**
+   _saved_model can be replaced with any pre-trained model. try using different models e.g "SSD", "RESNET" but provide according variables_
 
 [Download faster-rcnn-resnet101_brid_detection_model here (includes saved_model and variables)](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
