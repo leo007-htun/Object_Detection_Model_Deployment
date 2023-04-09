@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .
+    ports:
+      - 5000:5000
+    network_mode: "host"
+      
+  tf-serving:
+    image: tensorflow/serving:latest-gpu
+    ports:
+      - 8500:8500
+    environment:
+      - MODEL_NAME=od
+    volumes:
+      - /home/msc1/Desktop/Labs/Semester_2/7147COMP/Week_8_f/myFlaskapp/saved_model/:/models/od

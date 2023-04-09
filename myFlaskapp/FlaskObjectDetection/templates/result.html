@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='script.css') }}">
+</head>
+<body>
+    <h3></h3>
+    <div class="container1">
+        <center><h1>🎉HOORAYY...BIRDS DETECTED!!!🎉</h1><br/>
+        <span></span>
+        <div class="image-container">
+            <!--import images-->
+            <img class="img" src="{{ url_for('static', filename=filename) }}">
+            <img class="img" src="{{ url_for('static', filename='originals/' + filename) }}">
+          </div><br/>
+        <!--create table format-->
+        <table>
+            <thread>
+                <tr>
+                    <th>ID</th>
+                    <th>Image Label</th>  
+                    <th>Object Detected</th>
+                    <th>Probability</th>
+                </tr>
+            </thread>
+            <!--insert table contents from database-->
+            <tbody>
+                {% if row_data %}
+                    <tr>
+                        <td>{{ row_data.id }}</td>
+                        <td>{{ row_data.img_label }}</td>
+                        <td>{{ row_data.obj_detected }}</td>
+                        <td>{{ row_data.probability}}</td>
+                    </tr>
+                {% endif %} 
+            </tbody>
+        </table><br/>
+        <!--link on click to database.html-->
+        <form action="{{ url_for('database') }}" method="get">
+            <button class="submit" type="submit">CLICK HERE FOR DATABASE ENTIRES</button>
+        </form><br/>
+        <center><footer><p>Created by Sithu Ye Htun &copy; 2023</p></footer>
+    </div>
+</body>
+</html>
+

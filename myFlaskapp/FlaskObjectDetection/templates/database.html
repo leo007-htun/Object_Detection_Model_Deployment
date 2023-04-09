@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='script.css') }}">
+</head>
+<body>
+    <div class="container1">
+        <center><h3>WELCOME TO DATABASE</h3><br/>
+            <h5>Navigate to last row to view recently classified image data</h5><br/>
+        <span></span>
+        <table>
+            <thread>
+                <tr>
+                    <th>ID</th>
+                    <th>Image Label</th>  
+                    <th>Object Detected</th>
+                    <th>Probability</th>
+                </tr>
+            </thread>
+            <!--upon click from 'result.html' it will redirect here but it has rendered from -->
+            <tbody>
+                {% for data_ in data %}
+                    <tr>
+                        <td>{{ data_.id }}</td>
+                        <td>{{ data_.img_label }}</td>
+                        <td>{{ data_.obj_detected }}</td>
+                        <td>{{ data_.probability}}</td>
+                    </tr>
+                {% endfor %} 
+            </tbody>
+        </table><br/>
+        <center><footer><p>Created by Sithu Ye Htun &copy; 2023</p></footer>
+    </div>
+</body>
+</html>
+
