@@ -1,8 +1,5 @@
-<a href="https://github.com/anuraghazra/github-readme-stats/actions">
-    <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
-</a>
 <a>
-    ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+    [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leo007-htun)](https://github.com/anuraghazra/github-readme-stats)
 </a>
 
 
