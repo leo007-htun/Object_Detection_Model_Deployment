@@ -1,6 +1,7 @@
 <a href="https://github.com/anuraghazra/github-readme-stats/actions">
     <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
 </a>
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 ## Model Changes 
 
