@@ -1,4 +1,8 @@
-https://github.com/anuraghazra/github-readme-stats/actions
+
+    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+
 ## Model Changes 
 
 Inside ``saved_model/1/`` , there are one folder named ``variables/`` and  ``saved_model.pb``.
