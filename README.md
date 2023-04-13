@@ -1,6 +1,5 @@
-<a>
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leo007-htun&show_icons=true&theme=transparent)
-</a>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leo007-htun&show_icons=true&theme=transparent)
+
 ## Model Changes 
 
 Inside ``saved_model/1/`` , there are one folder named ``variables/`` and  ``saved_model.pb``.
