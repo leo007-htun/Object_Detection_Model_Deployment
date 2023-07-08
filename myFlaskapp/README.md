@@ -59,18 +59,38 @@ run flask image we juz created with the localhost and port ``5000`` as in ``app.
 
     $ sudo docker run -p 127.0.0.1:5000:5000 flask/last
 
-    2) docker compose : for docker compose, we don't necessarily need to docker build seperately, since 'docker compose' will build 'flask app' service, a Docker image from the current directory and exposes port 5000, the 'Dockerbuild' file inside will be build by 'docker compose up' with 'build: .' line. The tf-serving service uses the tensorflow/serving:latest-gpu image, which provides TensorFlow Serving with GPU support. It exposes port 8500 and sets the MODEL_NAME environment variable to "od". It also mounts the /home/msc1/Desktop/Labs/Semester_2/7147COMP/Week_8_f/myFlaskapp/saved_model/ directory on the host to the /models/od directory in the container, which allows TensorFlow Serving to serve the saved model stored in that directory.
+## 2) docker compose 
 
-        nagivate to directory where 'docker-compose.yml' exists
-            $ cd [..your home directory..]/Week_8_f/myFlaskapp/       
-            $ sudo docker compose up 
+for docker compose, we don't necessarily need to docker build seperately, 
 
-            sometimes it won't build the necessary files, in that case run
-            $ sudo docker compose up --build
+since ``docker compose`` will build ``flask app`` service, 
 
-            when you want to stop and remove containers,
-            $ sudo docker compose down
+a Docker image from the current directory will expose port 5000, 
 
-    "DOCKER IS AMAZING INDEED!!!"
+the ``Dockerbuild`` file inside will be build by ``docker compose up`` with ``build: .`` line. 
+
+The tf-serving service uses the ``tensorflow/serving:latest-gpu`` image, which provides TensorFlow Serving with GPU support. 
+
+It exposes port ``8500`` and sets the MODEL_NAME environment variable to ``od``. 
+
+It also mounts the ``/home/msc1/Desktop/Labs/Semester_2/7147COMP/Week_8_f/myFlaskapp/saved_model/`` directory on the host to the ``/models/od`` directory in the container, 
+
+which allows TensorFlow Serving to serve the saved model stored in that directory.
+
+Nagivate to directory where ``docker-compose.yml`` exists
+
+    $ cd [..your home directory..]/Week_8_f/myFlaskapp/    
+    
+    $ sudo docker compose up 
+
+sometimes it won't build the necessary files, in that case run
+
+    $ sudo docker compose up --build
+
+when you want to stop and remove containers,
+
+    $ sudo docker compose down
+
+"DOCKER IS AMAZING INDEED!!!"
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
