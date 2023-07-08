@@ -17,8 +17,11 @@ navigate to the specific directory to run flask python (app.py)
 click on the IP and start uploading images
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FROM this point we have two options: 1) docker build and create images 2) Docker compose
+FROM this point we have two options: 
 
+1) docker build and create images
+2) Docker compose
+   
     1) docker build : for docker build, since tf-serving has its own image on dockerhub, docker build for tf-serving is unnecessary.
         However, we need to docker build for flask app to create container image, to proceed:
 
