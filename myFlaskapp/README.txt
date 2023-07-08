@@ -1,4 +1,5 @@
 ## RUN without docker build or docker compose 
+
 To run flask app to classify bird species, we need to run tf-inference-server and flask python 
 Before that, we need to pull ``tensorflow-serving`` image from dockerhub. (https://hub.docker.com/r/bitnami/tensorflow-serving)
     $ docker pull bitnami/tensorflow-serving:latest
