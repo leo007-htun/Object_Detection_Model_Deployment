@@ -1,15 +1,21 @@
 ## RUN without docker build or docker compose 
 
 To run flask app to classify bird species, we need to run tf-inference-server and flask python 
+
 Before that, we need to pull ``tensorflow-serving`` image from dockerhub. (https://hub.docker.com/r/bitnami/tensorflow-serving)
+
     $ docker pull bitnami/tensorflow-serving:latest
-    RUN tf-serving container with specified port from tf-serving with '8500'
+    
+RUN tf-serving container with specified port from tf-serving with '8500'
+
         $ sudo docker run --gpus all -p 8500:8500 --name od --mount type=bind,source=/home/msc1/Desktop/Labs/Semester_2/7147COMP/Week_8/saved_model,target=/models/od -e MODEL_NAME=od -t tensorflow/serving:latest-gpu
 
-    navigate to the specific directory to run flask python (app.py)
+navigate to the specific directory to run flask python (app.py)
+
         $ cd [..your home directory..]/Week_8_f/myFlaskapp/FlaskObjectDetection
         $ python app.py
-    click on the IP and start uploading images
+        
+click on the IP and start uploading images
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FROM this point we have two options: 1) docker build and create images 2) Docker compose
 
