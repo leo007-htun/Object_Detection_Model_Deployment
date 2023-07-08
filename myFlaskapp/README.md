@@ -8,7 +8,7 @@ Before that, we need to pull ``tensorflow-serving`` image from dockerhub. (https
     
 RUN tf-serving container with specified port from tf-serving with '8500'
 
-        $ sudo docker run --gpus all -p 8500:8500 --name od --mount type=bind,source=/home/msc1/Desktop/Labs/Semester_2/7147COMP/Week_8/saved_model,target=/models/od -e MODEL_NAME=od -t tensorflow/serving:latest-gpu
+    $ sudo docker run --gpus all -p 8500:8500 --name od --mount type=bind,source=/home/msc1/Desktop/Labs/Semester_2/7147COMP/Week_8/saved_model,target=/models/od -e MODEL_NAME=od -t tensorflow/serving:latest-gpu
 
 navigate to the specific directory to run flask python (app.py)
 
