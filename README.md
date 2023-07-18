@@ -6,7 +6,7 @@ Inside ``saved_model/1/`` , there are two folders named ``variables/`` and  ``sa
 
 Inside ``variables/`` , there are two files, namely ``variables.index`` and ``variables.data-00000-of-00001``.
 
-Since github doesn't allow large files, ``variables.data-00000-of-00001`` can't be uploaded. Download it from the last Session.(https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
+Since github doesn't allow large files, ``variables.data-00000-of-00001`` can't be uploaded. Download it from the last Session(https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
 
 We need both ``variables/`` and ``model.pb`` to utilize the model.
 
