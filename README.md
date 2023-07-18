@@ -48,5 +48,5 @@ Use the ``Model Format`` accordingly which is supported by the type of ``Inferen
 
         sudo docker compose down
         
-## [Download ``variables.data-00000-of-00001`` here]()
+## [Download ``variables.data-00000-of-00001`` here](https://www.dropbox.com/scl/fi/o5eygjw6h24d2kycsve4e/variables.data-00000-of-00001?rlkey=yl7eksoyjl22k3wx0dcvrjtqt&dl=0)
     
