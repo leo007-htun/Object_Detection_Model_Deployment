@@ -48,5 +48,5 @@ Use the ``Model Format`` which is supported by the ``Inference Server`` that you
 
         sudo docker compose down
         
-## [Download faster-rcnn-resnet101_brid_detection_model (includes saved_model and variables)](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
+## [Download ``variables.data-00000-of-00001`` here](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
     
