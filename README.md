@@ -2,7 +2,7 @@
 
 ## Model Changes 
 
-Inside ``saved_model/1/`` , there are one folder named ``variables/`` and  ``saved_model.pb``.
+Inside ``saved_model/1/`` , there are two folders named ``variables/`` and  ``saved_model.pb``.
 
 Inside ``variables/`` , there are two files, namely ``variables.index`` and ``variables.data-00000-of-00001``.
 
