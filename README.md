@@ -6,7 +6,7 @@ Inside ``saved_model/1/`` , there are two folders named ``variables/`` and  ``sa
 
 Inside ``variables/`` , there are two files, namely ``variables.index`` and ``variables.data-00000-of-00001``.
 
-Since github doesn't allow large files, ``variables.data-00000-of-00001`` can't be uploaded. Download it from the last Session(https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
+Since github doesn't allow large files, ``variables.data-00000-of-00001`` can't be uploaded. Download it from the last Session
 
 We need both ``variables/`` and ``model.pb`` to utilize the model.
 
@@ -16,9 +16,9 @@ Note that in ``saved_model/1/variables/`` we need to add the model's appropriate
 
 ## Server Changes
 
-Note that Changing ``Inference Server`` may affect the ``Model Format``.
+Note that Changing ``Inference Server`` may affect the ``Model Format``
 
-Use the ``Model Format`` which is supported by the ``Inference Server`` that you are gonna use.
+Use the ``Model Format`` accordingly which is supported by the ``Inference Server`` 
 
 ## RUN MANUALLY
   
@@ -48,5 +48,5 @@ Use the ``Model Format`` which is supported by the ``Inference Server`` that you
 
         sudo docker compose down
         
-## [Download ``variables.data-00000-of-00001`` here](https://drive.google.com/drive/folders/1vUvF9jUEtDo8usxaifAxthUMp1mSxLmT?usp=share_link)
+## [Download ``variables.data-00000-of-00001`` here]()
     
