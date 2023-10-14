@@ -1,6 +1,7 @@
 [![PyPI - Python Version](https://img.shields.io/badge/Python-%3E%3D%203.9-blue)](https://www.python.org/)
 [![Docker Version](https://img.shields.io/badge/Docker-%3E%3D%2020.10.5-blue)](https://www.docker.com/)
 [![TensorFlow Version](https://img.shields.io/badge/TensorFlow-2.5.0-orange)](https://www.tensorflow.org/)
+[![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-red)](https://flask.palletsprojects.com/)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leo007-htun&show_icons=true&theme=transparent)
