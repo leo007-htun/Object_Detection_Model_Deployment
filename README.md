@@ -7,10 +7,8 @@
 [![Built with TF-Serving](https://img.shields.io/badge/Built%20with-TF--Serving-green)](https://www.tensorflow.org/tfx/guide/serving)
 [![TF Object Detection API](https://img.shields.io/badge/TF%20Object%20Detection-API-orange)](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-</div>
-
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leo007-htun&show_icons=true&theme=transparent)
-
+</div>
 https://github.com/leo007-htun/Object_Detection_Model_Deployment/assets/66962471/3cd7579d-a944-4281-94f7-a3e73f4ae8d1
 
 ## Model Changes 
