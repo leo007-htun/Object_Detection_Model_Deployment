@@ -3,6 +3,7 @@
 [![TensorFlow Version](https://img.shields.io/badge/TensorFlow-2.5.0-orange)](https://www.tensorflow.org/)
 [![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-red)](https://flask.palletsprojects.com/)
 [![Built with TF-Serving](https://img.shields.io/badge/Built%20with-TF--Serving-green)](https://www.tensorflow.org/tfx/guide/serving)
+[![TF Object Detection API](https://img.shields.io/badge/TF%20Object%20Detection-API-orange)](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leo007-htun&show_icons=true&theme=transparent)
